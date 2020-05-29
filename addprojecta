@@ -1,0 +1,7 @@
+#!/bin/bash
+
+python round_trip.py -c projecta
+regolith helper l_milestones
+git add ..
+git commit -m "edit"
+git push
