@@ -1,5 +1,6 @@
 #!/bin/bash
 
+set -e
 python round_trip.py -c projecta
 regolith helper l_milestones
 git add ..
